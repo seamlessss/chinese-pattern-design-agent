@@ -1,0 +1,24 @@
+{
+  "paths": {
+    "wenyang_json": "data/raw/wenyang/data/patterns.json",
+    "processed_csv": "data/processed/patterns.csv",
+    "feature_npz": "data/processed/visual_features.npz",
+    "graph_ttl": "data/processed/pattern_graph.ttl"
+  },
+  "ranking_weights": {"structured": 0.55, "text": 0.30, "visual": 0.15},
+  "image_generation": {
+    "provider": "bailian_wanxiang",
+    "model": "wanx2.1-t2i-turbo",
+    "openai_model": "gpt-image-1",
+    "region": "beijing",
+    "poll_interval_seconds": 2,
+    "timeout_seconds": 120,
+    "size": "1024x1024",
+    "quality": "low"
+  },
+  "source": {
+    "name": "中国传统纹样图鉴",
+    "url": "https://github.com/dososo/chinese-traditional-patterns",
+    "license": "CC BY-NC 4.0（文字与图片；代码/数据结构 MIT）"
+  }
+}

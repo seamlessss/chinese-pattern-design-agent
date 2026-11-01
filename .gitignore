@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.streamlit/secrets.toml
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.ttl
+data/processed/*.npz
+data/raw/huggingface/step_*/dataset_image/
+data/raw/huggingface/step_*/dataset_json/
+data/raw/wenyang/patterns/
+data/raw/source_audit/*.zip
+data/raw/source_audit/wenyang_extract/
+data/generated/*
